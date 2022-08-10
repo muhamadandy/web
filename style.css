@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #a66cff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1135px;
+  margin: auto;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul li {
+  padding: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  color: #9c9efe;
+}
+
+.wrapper {
+  display: flex;
+  margin: 50px 0;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  margin-right: 30px;
+}
+
+.caption h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.caption p {
+  line-height: 1.6;
+  font-size: 16px;
+  margin: 20px 0 40px 0;
+}
+
+.img-header {
+  flex: 1;
+}
+
+.img-header img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+input[type='email'] {
+  width: 50%;
+  height: 40px;
+  border: 1px solid #000;
+  font-size: 14px;
+  padding: 0 20px;
+  border-radius: 8px;
+  background: transparent;
+  outline: none;
+}
+
+::placeholder {
+  color: #000;
+}
+
+.btn {
+  border: 0;
+  background-color: #b1e1ff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #afb4ff;
+}
